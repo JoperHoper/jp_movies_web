@@ -1,0 +1,86 @@
+#lineStyle {
+    border-width: medium;
+    width: 40%;
+    border-Style: solid;
+    border-Image: linear-gradient(to right, #872341, black) 1;
+    margin-left: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+#header {
+    margin-left: 20px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    margin-top: 20px;
+    padding: 0px 35px;
+    position: relative;
+}
+
+.promo-cards {
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    cursor: pointer;
+    cursor: grabbing;
+    user-select: none;
+}
+
+.promo-img {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    display: inline-block;
+}
+
+.promo-img #promotion-img {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.promotion-carousel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 35px; 
+    width: 400px;
+    padding-left: 0px;
+}
+
+.promocarousel-animation {
+    transition: all 0.25s ease 0s;
+}
+
+.promotion-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.promowrapper-container {
+    max-width: 1300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+    .promowrapper-container .promotions-carousel {
+        grid-auto-columns: calc((100%/2)-9px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .promowrapper-container .promotions-carousel {
+        grid-auto-columns: 100%;
+    }
+}

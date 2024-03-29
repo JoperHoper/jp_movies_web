@@ -18,26 +18,32 @@ function Promotion_Tab() {
         </div>
         <div id='Current-Promotion' className={toggle === 1 ? 'active-content':'content'}>
           <table className='ptTable'>
-            <tr className='tabRow-Style'>
-              <td className='tabCell-Style'><img src={require('../assets/Promo1.png')}></img></td>
-              <td className='tabCell-Style'><img src={require('../assets/Promo2.png')}></img></td>
-              <td className='tabCell-Style'><img src={require('../assets/Promo3.png')}></img></td>
-            </tr>
+            <tbody>
+              <tr className='tabRow-Style'>
+                <td className='tabCell-Style'><img src={require('../assets/Promo1.png')}></img></td>
+                <td className='tabCell-Style'><img src={require('../assets/Promo2.png')}></img></td>
+                <td className='tabCell-Style'><img src={require('../assets/Promo3.png')}></img></td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div id='JP-Annual-Pass' className={toggle === 2 ? 'active-content':'content'}>
           <table className='ptTable'>
+            <tbody>
               <tr className='tabRow-Style'>
                 <td className='tabCell-Style'><img src={require('../assets/Promo5.png')}></img></td>
               </tr>
+            </tbody>
           </table>
         </div>
         <div id='Movie-Perks' className={toggle === 3 ? 'active-content':'content'}>
           <table className='ptTable'>
+            <tbody>
               <tr className='tabRow-Style'>
                 <td className='tabCell-Style'><img src={require('../assets/Promo4.png')}></img></td>
               </tr>
-            </table>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

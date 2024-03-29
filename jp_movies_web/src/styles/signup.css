@@ -1,0 +1,130 @@
+#signUpForm {
+  height: 450px;
+  width: 1000px;
+  margin: auto;
+  background: linear-gradient(180deg,#eb7562, transparent)#c34757;
+}
+
+#signUpForm h2 {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+#createAccHeader {
+  color: aliceblue;
+  margin-top: 5%;
+  font-family: gill sans;
+  letter-spacing: 1px;
+}
+
+.rowElementStyle {
+  height: 18%;
+}
+
+.leftElement {
+  width: 500px;
+  float: left;
+  height: auto;
+}
+
+.leftAlignment {
+  display: block;
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+.leftAlignment label {
+  color: aliceblue;
+  margin-right: 15px;
+  font-size: large;
+  font-family: gill sans;
+}
+
+.leftAlignmentBar {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.leftAlignmentBar input {
+  padding: 5px 40px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.rightElement {
+  width: 480px;
+  float: right;
+  height: auto;
+}
+
+.rightAlignment {
+  display: block;
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+.rightAlignment label {
+  color: aliceblue;
+  margin-right: 15px;
+  font-size: large;
+  font-family: gill sans;
+}
+
+.rightAlignmentBar {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.rightAlignmentBar input {
+  padding: 5px 40px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+#radioElement {
+  width: 500px;
+  height: auto;
+  margin-left: 500px;
+}
+
+#genderAlignment {
+  float: right;
+  margin-right: 14px;
+}
+
+#radioElement label {
+  color: aliceblue;
+  font-size: large;
+  font-family: gill sans;
+}
+
+#radioElement input {
+  margin-right: 18px;
+}
+
+#rightAlignment {
+  display: block;
+  width: 30%;
+  float: left;
+  text-align: right;
+}
+
+.signUpButton {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 50px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(225, 225, 225);
+  background-color: #872341;
+  float: right;
+  margin-right: 20px;
+}

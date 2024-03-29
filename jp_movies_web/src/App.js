@@ -5,6 +5,7 @@ import cinema from './pages/cinema';
 import promotions from './pages/promotions';
 import loginpage from './pages/loginpage';
 import movies from './pages/movies';
+import signup from './pages/signup';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/promotions' Component={promotions}></Route>
         <Route path='/loginpage' Component={loginpage}></Route>
         <Route path='/movies' Component={movies}></Route>
+        <Route path='/signup' Component={signup}></Route>
       </Routes>
       </BrowserRouter>
     </div>

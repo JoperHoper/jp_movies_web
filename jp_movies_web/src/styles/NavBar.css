@@ -8,8 +8,9 @@
     color: #FAF6F0;
     float: left;
     display: flex;
-    font-size: larger;
+    font-size: large;
     width: 60%;
+    font-family: sans-serif;
 }
 
 #logo-style {

@@ -1,0 +1,78 @@
+#banner-section {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.rolling-bannersection {
+    display: flex;
+    background-color: black;
+    height: 500px;
+}
+.bannerTransition {
+    transition: margin-left 10s;
+}
+.centreScreen {
+    margin-left: 0%;
+}
+.outOfScreenLeft {
+    margin-left: -200%;   
+}
+.outOfScreenRight {
+    margin-left: 100%;   
+}
+.hiddenBanner {
+    display: none;
+}
+.showBanner {
+    display: block;
+}
+
+.imageStyle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    flex: 1;
+    width: 50%;
+}
+.carousel {
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    position: relative; 
+    overflow: hidden;
+}
+.arrow-prev {
+    margin-top: 13.5%;
+    margin-left: 2%;
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    left: 10px;
+    border: none;
+}
+.arrow-next {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    right: 10px;
+    border: none;
+}
+.slider {
+    display: flex;
+    height: 100%;
+    width: 200%;
+    flex-shrink: 0;
+    transition: transform 0.5s;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+}

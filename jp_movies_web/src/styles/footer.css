@@ -1,0 +1,18 @@
+.footheader-style {
+    font-size: 18px;
+}
+
+#footer-style {
+    display: flex;
+    height: 300px;
+    background-Color: #212121;
+    color: white;
+}
+
+#paragraph-style {
+    padding-top: 15px;
+}
+
+#icon-style {
+    padding-right: 15px;
+}

@@ -1,0 +1,163 @@
+.movies-container {
+  width: 100%;
+  height: 120vh;
+}
+
+.moviesTab {
+  background-color: #000000;
+  margin-top: 3%;
+  padding-bottom: 8px;
+  border-bottom: #444444 solid 3px;
+}
+
+.moviesTab .mTab {
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+  color: aliceblue;
+  font-family: sans-serif;
+  display: inline;
+  margin: 0px 15px 10px 0px;
+  user-select: none;
+}
+
+.mContent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.mTab .mActive-tab {
+  display: block;
+}
+
+.mTable {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+  
+.mActive-tab {
+background: #444444;
+padding: 12px 8px 9px 8px;
+transition: none;
+}
+
+.resize {
+height: auto;
+width: 50%;
+}
+
+.mTabRow-Style {
+  width: inherit;
+  max-height: 50vh;
+}
+
+.mButton {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5%;
+  background-color: #2e85d2;
+  color: aliceblue;
+  font-weight: 180;
+  font-family: sans-serif;
+  margin: 5px 0px 40px 0px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.mButton:hover {
+    background-color: #2a75b7;
+}
+
+.btn-imagepopup {
+  width: 250px;
+ -webkit-user-drag: none;
+}
+
+.btn-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+}
+
+.poster-container {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.poster-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.desc-container {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 15px;
+  user-select: none;
+}
+
+.title-container {
+  width: 100%;
+  height: 10%;
+  margin-bottom: 15px;
+}
+
+.title-container .btntitle-style {
+  color: aliceblue;
+  text-align: left;
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+
+.btntitle-style:hover {
+  color: #2a75b7;
+  cursor: pointer;
+}
+
+.subtitle-container {
+  width: 100%;
+  height: 20%;
+  border: transparent;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.sub-style {
+  color: #2a75b7;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.smalldesc-container {
+  width: 100%;
+  height: 15%;
+  display: inline-block;
+}
+
+.smalldesc-style {
+  color: aliceblue;
+  text-align: left;
+  margin: auto;
+  font-size: 14px;
+}
+
+h3.sub-style {
+  margin-top: 0;
+}
+
+.synop-container {
+  width: 100%;
+  height: 35%;
+  border: transparent;
+  padding-left: 5px;
+}

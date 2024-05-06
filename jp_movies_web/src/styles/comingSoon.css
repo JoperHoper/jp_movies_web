@@ -1,0 +1,104 @@
+#header {
+    margin-left: 20px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+
+#lineStyle {
+    border-width: medium;
+    width: 40%;
+    border-Style: solid;
+    border-Image: linear-gradient(to right, #872341, black) 1;
+    margin-left: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.csbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    margin-top: 20px;
+    padding: 0px 35px;
+    position: relative;
+}
+
+.cs-cards {
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    cursor: pointer;
+    cursor: grabbing;
+    user-select: none;
+}
+
+.cs-overlay:hover #coming-soon-img {
+    opacity: 0.2;
+    transition: opacity 0.3s;
+}
+
+.cs-overlay:hover .cstext-overlay {
+    opacity: 1;
+    transition: opacity 0.7s;
+}
+
+.cstext-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
+.csmovie-rating {
+    color:  rgb(171, 171, 171);
+    font-size: 12px;
+}
+
+.csmovie-duration {
+    font-size: 14px;
+}
+
+.cs-img {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    display: inline-block;
+}
+
+.cs-img #coming-soon-img {
+    width: 170px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.comingsoon-carousel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 60px; 
+    width: 1000px;
+    padding-left: 0px;
+}
+
+.cscarousel-animation {
+    transition: all 0.25s ease 0s;
+}
+
+.comingsoon-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.cswrapper-container {
+    max-width: 1100px;
+    width: 100%;
+    overflow: hidden;
+}

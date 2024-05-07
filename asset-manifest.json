@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/jp_movies_web/static/css/main.eaf1e726.css",
+    "main.js": "/jp_movies_web/static/js/main.89dff5a1.js",
+    "static/js/787.e2c4a0bd.chunk.js": "/jp_movies_web/static/js/787.e2c4a0bd.chunk.js",
+    "static/media/10.png": "/jp_movies_web/static/media/10.ebca5cb65dd70bdde80f.png",
+    "static/media/14.png": "/jp_movies_web/static/media/14.d2a9c008b94f2ec81d16.png",
+    "static/media/1.png": "/jp_movies_web/static/media/1.11547b0eac05495f65dc.png",
+    "static/media/16.png": "/jp_movies_web/static/media/16.c65bbc0827ddbb193a3f.png",
+    "static/media/13.png": "/jp_movies_web/static/media/13.82550eab505ed77019ff.png",
+    "static/media/3.png": "/jp_movies_web/static/media/3.bdcaa849b7ae38d3c7e3.png",
+    "static/media/11.png": "/jp_movies_web/static/media/11.8c8a534d6fa09e883a04.png",
+    "static/media/15.png": "/jp_movies_web/static/media/15.84fec325880f61050be9.png",
+    "static/media/12.png": "/jp_movies_web/static/media/12.555306287cf1691b9a3d.png",
+    "static/media/9.png": "/jp_movies_web/static/media/9.01e0cf4257713c3a8e10.png",
+    "static/media/8.png": "/jp_movies_web/static/media/8.c53a919f9bcac17eab25.png",
+    "static/media/7.png": "/jp_movies_web/static/media/7.2cf0b35670760e0e60c0.png",
+    "static/media/4.png": "/jp_movies_web/static/media/4.6c80bb00311fdcfa3749.png",
+    "static/media/5.png": "/jp_movies_web/static/media/5.b539aa5f640aa83ee370.png",
+    "static/media/2.png": "/jp_movies_web/static/media/2.11383fdbb82808384f0f.png",
+    "static/media/Banner_1.png": "/jp_movies_web/static/media/Banner_1.71a7d5d199d4dcc4ac25.png",
+    "static/media/Banner_3.png": "/jp_movies_web/static/media/Banner_3.98674e27f642c5badab3.png",
+    "static/media/Banner_2.png": "/jp_movies_web/static/media/Banner_2.90d1ea91fb53bbd5cf89.png",
+    "static/media/Promo5.png": "/jp_movies_web/static/media/Promo5.cc7d9175c89459579f6c.png",
+    "static/media/Promo1.png": "/jp_movies_web/static/media/Promo1.78c254dfb78c9ebbf58f.png",
+    "static/media/Promo2.png": "/jp_movies_web/static/media/Promo2.628d794b39487d195d6d.png",
+    "static/media/Promo4.png": "/jp_movies_web/static/media/Promo4.9751dcc6f39464a27cff.png",
+    "static/media/Promo3.png": "/jp_movies_web/static/media/Promo3.f2bb72138c2cea13e59c.png",
+    "index.html": "/jp_movies_web/index.html",
+    "static/media/initialization_vector": "/jp_movies_web/static/media/initialization_vector.9f55464b7eb61d098fae",
+    "static/media/aes_key": "/jp_movies_web/static/media/aes_key.d8704fe172f715dca7b5",
+    "main.eaf1e726.css.map": "/jp_movies_web/static/css/main.eaf1e726.css.map",
+    "main.89dff5a1.js.map": "/jp_movies_web/static/js/main.89dff5a1.js.map",
+    "787.e2c4a0bd.chunk.js.map": "/jp_movies_web/static/js/787.e2c4a0bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaf1e726.css",
+    "static/js/main.89dff5a1.js"
+  ]
+}

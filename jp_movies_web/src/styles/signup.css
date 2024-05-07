@@ -1,8 +1,8 @@
 #signUpForm {
-  height: 450px;
+  height: 460px;
   width: 1000px;
   margin: auto;
-  background: linear-gradient(180deg,#eb7562, transparent)#c34757;
+  background: linear-gradient(180deg, #eb7562, transparent) #c34757;
 }
 
 #signUpForm h2 {
@@ -127,4 +127,17 @@
   background-color: #872341;
   float: right;
   margin-right: 20px;
+}
+
+.leftAlignmentBarDOB {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.leftAlignmentBarDOB #dob {
+  padding: 5px 65px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
 }

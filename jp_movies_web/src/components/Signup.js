@@ -74,27 +74,27 @@ function Signup() {
       <div className='rowElementStyle'>
         <div className='leftElement'>
             <div className='leftAlignment'><label htmlFor='firstname'>First Name:</label></div>
-            <div className='leftAlignmentBar'><input ref={firstNameRef} type='text' id='firstname' placeholder='Enter First Name' autoComplete="on"></input></div>
+            <div className='leftAlignmentBar'><input ref={firstNameRef} type='text' id='firstname' placeholder='Enter First Name' autoComplete="on" required></input></div>
         </div>
         <div className='rightElement'>
             <div className='rightAlignment'><label htmlFor='lastname'>Last Name:</label></div>
-            <div className='rightAlignmentBar'><input ref={lastNameRef} type='text' id='lastname' placeholder='Enter Last Name' autoComplete="on"></input></div>
+            <div className='rightAlignmentBar'><input ref={lastNameRef} type='text' id='lastname' placeholder='Enter Last Name' autoComplete="on" required></input></div>
         </div>
       </div>
       <div className='rowElementStyle'>
         <div className='leftElement'>
             <div className='leftAlignment'><label htmlFor='email'>Email:</label></div>
-            <div className='leftAlignmentBar'><input ref={emailRef} type='text' id='email' placeholder='Enter Email' autoComplete="on"></input></div>
+            <div className='leftAlignmentBar'><input ref={emailRef} type='email' id='email' placeholder='Enter Email' autoComplete="on" required></input></div>
         </div>
         <div className='rightElement'>
           <div className='rightAlignment'><label htmlFor='mobile'>Mobile Number:</label></div>
-          <div className='rightAlignmentBar'><input ref={mobileRef} type='text' id='mobile' placeholder='Enter Mobile Number' autoComplete="on"></input></div>
+          <div className='rightAlignmentBar'><input ref={mobileRef} type='tel' maxLength={8} id='mobile' placeholder='Enter Mobile Number' autoComplete="on" required></input></div>
         </div>
       </div>  
         <div className='rowElementStyle'>
           <div className='leftElement'>
             <div className='leftAlignment'><label htmlFor='dob'>Date of Birth</label></div>
-            <div className='leftAlignmentBar'><input ref={dobRef} type='text' id='dob' placeholder='Enter YYYY-MM-DD' autoComplete="on"></input></div>
+            <div className='leftAlignmentBarDOB'><input ref={dobRef} type='date' id='dob'></input></div>
         </div>
         <div id='radioElement'>
             <div id='rightAlignment'><label htmlFor='gender'>Gender:</label></div>
@@ -111,11 +111,11 @@ function Signup() {
       <div className='rowElementStyle'>
         <div className='leftElement'>
             <div className='leftAlignment'><label htmlFor='username'>Username:</label></div>
-            <div className='leftAlignmentBar'><input ref={usernameRef} type='text' id='username' placeholder='Enter Username' autoComplete="on"></input></div>
+            <div className='leftAlignmentBar'><input ref={usernameRef} type='text' id='username' placeholder='Enter Username' autoComplete="on" required></input></div>
         </div>
         <div className='rightElement'>
           <div className='rightAlignment'><label htmlFor='password'>Password:</label></div>
-          <div className='rightAlignmentBar'><input ref={passwordRef} type='text' id='password' placeholder='Enter Password' autoComplete="on"></input></div>
+          <div className='rightAlignmentBar'><input ref={passwordRef} type='text' id='password' placeholder='Enter Password' autoComplete="on" required></input></div>
         </div>
       </div>
         <div className='form-elements'>

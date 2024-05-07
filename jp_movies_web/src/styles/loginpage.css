@@ -95,3 +95,10 @@
     font-family: sans-serif;
     font-weight: lighter;
 }
+
+.toggle-Eye {
+    position: absolute;
+    cursor: pointer;
+    top: 47%;
+    right: 140px;
+}

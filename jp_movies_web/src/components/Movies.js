@@ -62,6 +62,7 @@ function Movies() {
                           Packed with high-stakes action, betrayals, and suspense, it's a race to prevent catastrophe.
                           </p>
                         </div>
+                        <button className='available-dates'>Available Dates</button>
                       </div>
                     </div>
                   </MoviesPopup>
@@ -87,12 +88,12 @@ function Movies() {
                         <div className='synop-container'>
                           <h3 className='sub-style'>Synopsis</h3>
                           <p className='smalldesc-style'>
-                            Alex Turner (Jake Mirage), a skilled cosplayer, is unwittingly thrust into a real-life espionage game 
-                            when Agent Emily Stone (Zoe Shadow) recruits him to stop the enigmatic Mastermind (Victor Shade). 
-                            With cosplay skills turned lethal, Alex embarks on a high-stakes mission, facing danger, deception, 
-                            and a villain who plays by no rules.
+                            Alex Turner (Jake Mirage), a skilled cosplayer, thrust into a real-life espionage game when
+                            Agent Emily Stone (Zoe Shadow) recruits him to stop the enigmatic Mastermind. 
+                            Cosplay skills turned lethal, a high-stake mission, and a villain who plays by no rules.
                           </p>
                         </div>
+                        <button className='available-dates'>Available Dates</button>
                       </div>
                     </div>
                   </MoviesPopup>
@@ -124,6 +125,7 @@ function Movies() {
                               the ghostly entity's vengeful wrath.
                             </p>
                           </div>
+                          <button className='available-dates'>Available Dates</button>
                         </div>
                       </div>
                     </MoviesPopup>
@@ -149,12 +151,12 @@ function Movies() {
                             <div className='synop-container'>
                               <h3 className='sub-style'>Synopsis</h3>
                               <p className='smalldesc-style'>
-                                "Rom Rin" unfolds the tender love story of Emma (Lily Bloom) and Ethan (Noah Heart), childhood friends 
-                                separated by time and circumstance. Fate brings them back together, rekindling old flames. 
-                                As Olivia (Grace Fields) adds a twist to their connection, "Rom Rin" explores the complexities of love, 
-                                friendship, and second chances in a heartwarming romantic tale.
+                               The tender love story of Emma (Lily Bloom) and Ethan (Noah Heart), childhood friends 
+                                separated by time and circumstance. As Olivia (Grace Fields) adds a twist to their connection,
+                                "Rom Rin" explores the complexities of love and second chances in a heartwarming romantic tale.
                               </p>
                             </div>
+                            <button className='available-dates'>Available Dates</button>
                           </div>
                         </div>
                       </MoviesPopup>
@@ -187,17 +189,75 @@ function Movies() {
                           <div className='synop-container'>
                             <h3 className='sub-style'>Synopsis</h3>
                             <p className='smalldesc-style'>
-                              "Romance in Rome" follows the enchanting journey of Isabella (Sophia Bianchi) and Marco (Luca Romano) 
+                              The enchanting journey of Isabella (Sophia Bianchi) and Marco (Luca Romano) 
                               as they discover love amidst the timeless beauty of Rome. With Elena (Alessia Marino) adding a touch of drama, 
-                              the film weaves a tale of passion, cultural richness, and the magic of love in the heart of the Eternal City.
+                              the film weaves a tale of passion, and the magic of love in the heart of the Eternal City.
                             </p>
                           </div>
+                          <button className='available-dates'>Available Dates</button>
                         </div>
                       </div>
                     </MoviesPopup>
                   </td>
-                  <td><button className='mButton' onClick={() => updatePopup(6)}>Buy Tickets</button></td>
-                  <td><button className='mButton' onClick={() => updatePopup(7)}>Buy Tickets</button></td>
+                  <td><button className='mButton' onClick={() => updatePopup(6)}>Buy Tickets</button>
+                    <MoviesPopup isDisplay={popup === 6 ? buttonPopup:''} trigger={setButtonPopup}>
+                        <div className={popup === 6 ? 'btn-container':''}>
+                          <div className='poster-container'>
+                            <img className='btn-imagepopup' src={require('../assets/9.png')}></img>
+                          </div>
+                          <div className='desc-container'>
+                            <div className='title-container'>
+                              <h2 className='btntitle-style'>00 Boys: Moving Out</h2>
+                            </div>
+                            <div className='subtitle-container'>
+                              <h3 className='sub-style'>Cast</h3>
+                              <p className='smalldesc-style'>Liam Evans, Nathan Parker, Jake Miller</p>
+                            </div>
+                            <div className='subtitle-container'>
+                              <h3 className='sub-style'>Director</h3>
+                              <p className='smalldesc-style'>Michael Stone</p>
+                            </div>
+                            <div className='synop-container'>
+                              <h3 className='sub-style'>Synopsis</h3>
+                              <p className='smalldesc-style'>
+                                Lifelong friends Jack (Liam Evans), Sam (Nathan Parker), and Alex (Jake Miller) face their biggest challenge
+                                yet as they navigate the complexities of brotherhood while transitioning into adulthood. 
+                                As they embark on separate paths, their bond is tested, revealing the true brotherhood.
+                              </p>
+                            </div>
+                            <button className='available-dates'>Available Dates</button>
+                          </div>
+                        </div>
+                      </MoviesPopup>
+                  </td>
+                  <td><button className='mButton' onClick={() => updatePopup(7)}>Buy Tickets</button>
+                    <MoviesPopup isDisplay={popup === 7 ? buttonPopup:''} trigger={setButtonPopup}>
+                      <div className={popup === 7 ? 'btn-container':''}>
+                        <div className='poster-container'>
+                          <img className='btn-imagepopup' src={require('../assets/10.png')}></img>
+                        </div>
+                        <div className='desc-container'>
+                          <div className='title-container'>
+                            <h2 className='btntitle-style'>Hary Parrwers</h2>
+                          </div>
+                          <div className='subtitle-container'>
+                            <h3 className='sub-style'>Cast</h3>
+                            <p className='smalldesc-style'>Liam Evans, Nathan Parker, Jake Miller</p>
+                          </div>
+                          <div className='subtitle-container'>
+                            <h3 className='sub-style'>Director</h3>
+                            <p className='smalldesc-style'>Michael Stone</p>
+                          </div>
+                          <div className='synop-container'>
+                            <h3 className='sub-style'>Synopsis</h3>
+                            <p className='smalldesc-style'>
+                            </p>
+                          </div>
+                          <button className='available-dates'>Available Dates</button>
+                        </div>
+                      </div>
+                    </MoviesPopup>
+                  </td>
               </tr>
             </tbody>
           </table>

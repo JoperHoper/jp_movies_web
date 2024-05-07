@@ -7,6 +7,8 @@ import forge from 'node-forge';
 import aesKey from '../aes_key';
 import IV from '../initialization_vector';
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
 export default function LoginPage(props) {
   const navigate = useNavigate();
@@ -53,6 +55,8 @@ export default function LoginPage(props) {
       }
     });
   }
+
+  const [visibility, setVisibility] = useState(false);
   
   const usernameRef = useRef(null);
   const passwordRef = useRef(null);
@@ -69,7 +73,14 @@ export default function LoginPage(props) {
           </div>
           <div className='form-elements'>
             <label htmlFor='password'>Password</label>
-            <input ref={passwordRef} type='password' id='password' placeholder='Enter password' autoComplete="on"></input>
+            <input ref={passwordRef} 
+            type= {visibility ? 'text' : 'password'}
+            id='password' 
+            placeholder='Enter password' 
+            autoComplete="on"></input>
+            <span className='toggle-Eye' onClick={() => setVisibility(!visibility)}>
+              {visibility ? <FontAwesomeIcon icon={faEye} style={{color: "#000000",}}  /> : <FontAwesomeIcon icon={faEyeSlash} style={{color: "#000000",}} />}
+            </span>
           </div>
           <div className='form-elements'>
             <input type='checkbox' id='remember-me'></input>

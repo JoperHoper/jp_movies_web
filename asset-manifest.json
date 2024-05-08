@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jp_movies_web/static/css/main.c4b7d7f3.css",
-    "main.js": "/jp_movies_web/static/js/main.2533c59e.js",
+    "main.js": "/jp_movies_web/static/js/main.cd24de87.js",
     "static/js/787.e2c4a0bd.chunk.js": "/jp_movies_web/static/js/787.e2c4a0bd.chunk.js",
     "static/media/10.png": "/jp_movies_web/static/media/10.ebca5cb65dd70bdde80f.png",
     "static/media/14.png": "/jp_movies_web/static/media/14.d2a9c008b94f2ec81d16.png",
@@ -30,11 +30,11 @@
     "static/media/initialization_vector": "/jp_movies_web/static/media/initialization_vector.9f55464b7eb61d098fae",
     "static/media/aes_key": "/jp_movies_web/static/media/aes_key.d8704fe172f715dca7b5",
     "main.c4b7d7f3.css.map": "/jp_movies_web/static/css/main.c4b7d7f3.css.map",
-    "main.2533c59e.js.map": "/jp_movies_web/static/js/main.2533c59e.js.map",
+    "main.cd24de87.js.map": "/jp_movies_web/static/js/main.cd24de87.js.map",
     "787.e2c4a0bd.chunk.js.map": "/jp_movies_web/static/js/787.e2c4a0bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4b7d7f3.css",
-    "static/js/main.2533c59e.js"
+    "static/js/main.cd24de87.js"
   ]
 }
